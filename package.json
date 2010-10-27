@@ -1,0 +1,15 @@
+{
+  "name": "trust-reverse-proxy",
+  "description": "Trust a specific reverse proxy to handle incoming (SSL) requests",
+  "version": "0.1.0",
+  "contributors": [
+    { "name": "Bart Teeuwisse", "email": "bart@zazengo.com" }
+  ],
+  "dependencies": {
+    "connect": ">=0.2.5"
+  },
+  "keywords": ["ssl", "proxy"],
+  "directories": { "lib": "./lib" },
+  "main": "./lib/trustReverseProxy",
+  "engines": { "node": ">= 0.1.98" }
+}
