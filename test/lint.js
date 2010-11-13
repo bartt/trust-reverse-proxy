@@ -1,6 +1,6 @@
-require.paths.unshift(__dirname + '/../lib')
-var connect = require('connect'),
-  acceptReverseProxy = require('acceptReverseProxy');
+require.paths.unshift(__dirname + '/../lib');
+var connect = require('connect')
+  , acceptReverseProxy = require('trustReverseProxy');
 
 app = connect.createServer(acceptReverseProxy({proxyID: 'x-my-secret-proxy'}));
 
